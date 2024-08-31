@@ -1,6 +1,6 @@
 # Knis
 
-Este proyecto es una aplicación escrita en Go que obtiene información de personas a partir de su DNI, y almacena esta información en una base de datos MongoDB. La aplicación se ejecuta dentro de un contenedor Docker y utiliza `docker-compose` para manejar la configuración y el despliegue de los servicios.
+Aplicación en Go que obtiene información de personas a partir de su DNI, y almacena esta información en una base de datos MongoDB. La aplicación se ejecuta dentro de un contenedor Docker y utiliza `docker-compose` para manejar la configuración y el despliegue de los servicios.
 
 ## Requisitos Previos
 
