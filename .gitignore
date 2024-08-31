@@ -1,0 +1,40 @@
+# Ignore the vendor directory
+/vendor/
+
+# Ignore binary files
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+main
+
+# Ignore log files and temp files
+*.log
+*.tmp
+*.temp
+
+# Ignore directories for Go build
+bin/
+pkg/
+
+# Ignore Go mod cache
+/go/pkg/mod/
+
+# Ignore build and deploy artifacts
+node_modules/
+dist/
+build/
+
+# Ignore Docker related files
+docker-compose.override.yml
+Dockerfile.*
+
+# Ignore directories for app data
+app_data/
+
+# Ignore any other OS generated files
+.DS_Store
+Thumbs.db
